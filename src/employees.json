@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Chad Whales",
+    "image": "http://www.thebhavinshah.com/wp-content/uploads/2016/09/For-Employees.jpg",
+    "occupation": "Janitor",
+    "Contact": "999-999-9999"
+  },
+  {
+    "id": 2,
+    "name": "Clearance Clarence",
+    "image": "https://www.kiplinger.com/kipimages/pages/2227.jpg",
+    "occupation": "Account Manager",
+    "Contact": "999-999-9999"
+  },
+  {
+    "id": 3,
+    "name": "Liz Thomas",
+    "image": "http://2.bp.blogspot.com/-mhyE427gwfk/TwdiQdysEYI/AAAAAAAAADA/4gUxnmqRcKc/s320/woman_employee.jpg",
+    "occupation": "Accountant",
+    "Contact": "999-999-9999"
+  },
+  {
+    "id": 4,
+    "name": "Abby Rozales",
+    "image": "https://getwindfall.com/wp-content/uploads/happy-employee.jpg",
+    "occupation": "Engineer",
+    "Contact": "999-999-9999"
+  },
+  {
+    "id": 5,
+    "name": "Kayla Cochran",
+    "image": "https://thumbs.dreamstime.com/b/happy-business-woman-close-up-portrait-47255399.jpg",
+    "occupation": "Software Developer",
+    "Contact": "999-999-9999"
+  },
+  {
+    "id": 6,
+    "name": "Clyde Boyles",
+    "image": "https://il6.picdn.net/shutterstock/videos/5557667/thumb/1.jpg",
+    "occupation": "Intern",
+    "Contact": "999-999-9999"
+  },
+  {
+    "id": 7,
+    "name": "Dominik Boyle",
+    "image": "http://theresourcefulceo.com/wp-content/uploads/2014/08/employee-holding-file.jpg",
+    "occupation": "Intern",
+    "Contact": "999-999-9999"
+  },
+  {
+    "id": 8,
+    "name": "John Smith",
+    "image": "https://s3-ap-southeast-1.amazonaws.com/images.humanresourcesonline.net/wp-content/uploads/2016/02/AK-Feb-2016-mature-asian-employee-shutterstock-700x420.jpg",
+    "occupation": "Ladies Man",
+    "Contact": "999-999-9999"
+  },
+  {
+    "id": 9,
+    "name": "Tammy Bird",
+    "image": "https://asiasociety.org/files/uploads/474images/rsz_mirae_01_4.jpg",
+    "occupation": "VP",
+    "Contact": "999-999-9999"
+  },
+  {
+    "id": 10,
+    "name": "Mike Scrum",
+    "image": "https://image.freepik.com/free-photo/happy-asian-employee-businessman-office-uniform_39688-1146.jpg",
+    "occupation": "CEO",
+    "Contact": "999-999-9999"
+  }
+]
