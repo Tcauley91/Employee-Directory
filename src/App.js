@@ -14,8 +14,7 @@ class App extends Component {
     employees: []
   };
   this.handleInputChange = this.handleInputChange.bind(this);
-  this.sortByNameAZ = this.sortByNameAZ.bind(this);
-    this.sortByNameZA = this.sortByNameZA.bind(this);
+
 }
 
   componentDidMount(){
@@ -33,22 +32,39 @@ class App extends Component {
      });
   };
 
-  // Sort names A-Z & Z-A
-  
-  sortByNameAZ() {
-    this.setState(prevState => {
-      this.state.employee.sort((a, b) => (employees.name < employees.name))
-      return 1;
-  });
-  }
+  sortByNameAZ = e => {
+    let name = [...this.state.employees];
+    name.sort((a,b)=>{
+      var nameA = a.name.toUpperCase(); 
+      var nameB = b.name.toUpperCase(); 
+      if (nameA < nameB) {
+        return -1;
+      }
+      if (nameA > nameB) {
+        return 1;
+      }
 
-  sortByNameZA() {
-    this.setState(prevState => {
-      this.state.employee.sort((a, b) => (employees.name > employees.name))
-      return -1;
-  });
-  }
+      return 0;
+    })
+    this.setState({employees: name})
+  };
 
+ sortbyLNameAZ = e => {
+    let name = [...this.state.employees];
+
+    name.sort((a,b)=>{
+
+      let aFirst = a.name.split(" ");
+      let bFirst = b.name.split(" ");
+      let aLast = aFirst[aFirst.length -1];
+      let bLast = bFirst[bFirst.length -1];
+
+      if(aLast < bLast) return -1;
+      if(aLast > bLast) return 1;
+      return 0;
+    })
+    this.setState({employees: name})
+  }
 
   // Map over this.state.employees and render a EmployeeCard component for each employee object
   render() {
@@ -68,7 +84,11 @@ class App extends Component {
                    onChange={this.handleInputChange}
                    placeholder="type name here"
                  />
-                 <SortButton></SortButton>
+                 <SortButton
+                 sortByNameAZ={this.sortByNameAZ}
+                 sortbyLNameAZ={this.sortbyLNameAZ}
+                 >
+                 </SortButton>
         <Title>Employee Directory</Title>
         {_employees.map(employee => (
           <FriendCard
