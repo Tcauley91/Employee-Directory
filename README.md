@@ -1,14 +1,14 @@
 # Employee Directory
 
-Overview
+##Overview
 Create a employee directory with React. This required me to break up the application's UI into components, manage component state, and respond to user events.
 
-User Story
+##User Story
 
 As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
 
 
-Business Context
+## Business Context
 An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
 
 <img src="Images/ED2.jpg" alt="sc1"/>
@@ -24,7 +24,11 @@ View my deployed site here:
  <a href="https://guarded-tundra-25874.herokuapp.com/">Emloyee Directory</a>
 
 
-
+## Techonolgies used:
+React.js
+JSX
+CSS
+BootStrap
 
 ## Available Scripts
 
