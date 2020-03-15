@@ -12,11 +12,6 @@ Business Context
 An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
 
 
-<img src="assets/sc1.jpg" alt="sc1"/>
-<img src="assets/sc2.jpg" alt="sc2"/>
-<img src="assets/sc3.jpg" alt="sc3"/>
-<img src="assets/sc4.jpg" alt="sc4"/>
-
 
 
 View my deployed site here:
