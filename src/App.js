@@ -3,6 +3,7 @@ import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import employees from "./employees.json";
+import SortButton from "./components/Button";
 
 class App extends Component {
   // Setting this.state.employees to the employees json array
@@ -13,6 +14,8 @@ class App extends Component {
     employees: []
   };
   this.handleInputChange = this.handleInputChange.bind(this);
+  this.sortByNameAZ = this.sortByNameAZ.bind(this);
+    this.sortByNameZA = this.sortByNameZA.bind(this);
 }
 
   componentDidMount(){
@@ -30,8 +33,24 @@ class App extends Component {
      });
   };
 
+  // Sort names A-Z & Z-A
+  
+  sortByNameAZ() {
+    this.setState(prevState => {
+      this.state.employee.sort((a, b) => (employees.name < employees.name))
+      return 1;
+  });
+  }
 
-  // Map over this.state.employees and render a FriendCard component for each employee object
+  sortByNameZA() {
+    this.setState(prevState => {
+      this.state.employee.sort((a, b) => (employees.name > employees.name))
+      return -1;
+  });
+  }
+
+
+  // Map over this.state.employees and render a EmployeeCard component for each employee object
   render() {
     let _employees = this.state.employees;
     let search = this.state.searchString.trim().toLowerCase();
@@ -49,6 +68,7 @@ class App extends Component {
                    onChange={this.handleInputChange}
                    placeholder="type name here"
                  />
+                 <SortButton></SortButton>
         <Title>Employee Directory</Title>
         {_employees.map(employee => (
           <FriendCard
