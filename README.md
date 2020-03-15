@@ -14,7 +14,7 @@ An employee or manager would benefit greatly from being able to view non-sensiti
 <img src="Images/ED2.jpg" alt="sc1"/>
 <img src="Images/ED1.jpg" alt="sc2"/>
 <img src="Images/ED3.jpg" alt="sc3"/>
-<img src="images/ED4.jpg" alt="sc4"/>
+<img src="Images/ED4.jpg" alt="sc4"/>
 
 
 
