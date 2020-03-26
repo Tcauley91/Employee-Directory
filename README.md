@@ -25,7 +25,9 @@ View my deployed site here:
 
 
 ## Techonolgies used:
-<ul></ul>
+<ul>
+<li>React.js</li>
+</ul>
 
 
 ## Available Scripts & to run the application from your computer once you have cloned the repo:
