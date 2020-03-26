@@ -27,6 +27,8 @@ View my deployed site here:
 ## Techonolgies used:
 <ul>
 <li>React.js</li>
+<li>JSX</li>
+
 </ul>
 
 
