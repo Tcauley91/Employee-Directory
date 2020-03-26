@@ -28,6 +28,7 @@ View my deployed site here:
 <ul>
 <li>React.js</li>
 <li>JSX</li>
+<li>CSS</li>
 
 </ul>
 
