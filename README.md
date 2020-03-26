@@ -29,7 +29,7 @@ View my deployed site here:
 <li>React.js</li>
 <li>JSX</li>
 <li>CSS</li>
-
+<li>BootStrap - Framework</li>
 </ul>
 
 
